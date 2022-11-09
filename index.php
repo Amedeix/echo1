@@ -1,8 +1,8 @@
 <?php
 
-echo "Ciao :) \r\n";
+echo "Ciao :) </br> Ecco tutte le info. </br> Buona fortuna.";
 
 foreach ($_SERVER as $key=>$item){
-    echo "$key => $item <br>";
+    echo "<b>$key</b> => $item <br>";
 }
 ?>
